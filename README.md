@@ -37,6 +37,16 @@ More in-depth information can be found in the [Wiki](https://github.com/AColtZz/
 
 ***
 
+# Screenshots
+
+![Screenshot1](https://github.com/AColtZz/ToolkitMaker/blob/master/Resources/GitHub/screenshot1.png)
+
+![Screenshot2](https://github.com/AColtZz/ToolkitMaker/blob/master/Resources/GitHub/screenshot2.png)
+
+![Screenshot3](https://github.com/AColtZz/ToolkitMaker/blob/master/Resources/GitHub/screenshot3.png)
+
+***
+
 # What's Next
 
 So, currently u can find a lot of sources in this tutorial to other places where you can find really useful information on your journey to creating tools. Feel free to get this plugin and drop it in your project to explore the different functionalities (open for suggestions) for your future tools. This demo should serve as a starter’s guide and hopefully be enough. 
