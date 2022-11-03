@@ -171,7 +171,7 @@ TSharedRef<SWidget> SToolkitMakerDemo::WidgetGallery(TSharedRef<DemoContent> dem
 			.Padding(10.0f)
 			.AutoHeight()
 			[
-				HorizontalBoxExample(TextBoxExample(FText::FromString("SColorBlock")), ColorBlockExample())
+				HorizontalBoxExample(TextBoxExample(FText::FromString("SColorBlock")), ColorsExample())
 			]
 		+ SVerticalBox::Slot()
 			.Padding(10.0f)
@@ -491,14 +491,14 @@ TSharedRef<SWidget> SToolkitMakerDemo::HorizontalBoxExample(TSharedRef<SWidget> 
 
 TSharedRef<SWidget> SToolkitMakerDemo::ColorsExample()
 {
-	// TODO: Figure out how color block work!
+	// TODO: Figure out how to change base colour on materials on selected objects!
 	TSharedRef<SWidget> Widget = SNew(SOverlay)
 
 		// color wheel
 		+ SOverlay::Slot()
 		[
 			SNew(STextBlock)
-			.Text(FText::FromString("Make the object material base colour changer"))
+			.Text(FText::FromString("Make the object material base colour changer!"))
 		]
 		;
 
