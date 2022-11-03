@@ -3,6 +3,7 @@
 
 #include "SToolkitMakerDemo.h"
 #include "SlateOptMacros.h"
+#include "Widgets/Colors/SColorPicker.h"
 
 /**
  * ToolkitMakerDemo v1.0
@@ -491,8 +492,15 @@ TSharedRef<SWidget> SToolkitMakerDemo::HorizontalBoxExample(TSharedRef<SWidget> 
 TSharedRef<SWidget> SToolkitMakerDemo::ColorsExample()
 {
 	// TODO: Figure out how color block work!
-	TSharedRef<SWidget> Widget = SNew(STextBlock)
-		.Text(FText::FromString("TODO: Figure out how colors work!"));
+	TSharedRef<SWidget> Widget = SNew(SOverlay)
+
+		// color wheel
+		+ SOverlay::Slot()
+		[
+			SNew(STextBlock)
+			.Text(FText::FromString("Make the object material base colour changer"))
+		]
+		;
 
 	return Widget;
 }
