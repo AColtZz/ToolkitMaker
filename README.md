@@ -1,6 +1,6 @@
 # Toolkitmaker UE5
 
-"To be added quick intro!"
+**This plugin is made for Unreal 5.0 or later, tested in Unreal 5.0.3, Visual Studio 2022 is used.**
 
 ***
 
